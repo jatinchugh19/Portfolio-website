@@ -507,9 +507,7 @@ a{
     #project2 {
       margin-left: 0;
     }
-    #project4 {
-      margin-left: 0;
-    }
+  
     .project-skill-container {
       width: 100%;
     }
@@ -716,16 +714,198 @@ footer{
 }
 
 /* Styles for phones (less than 600px) */
-@media screen and (max-width: 600px) {
-  .hero-section{
-    display: flex;
-    flex-direction: row;
-  }
+@media screen and (max-width: 1024px) {
+  .navbar{
+    padding-top:12;
+    width: 100vw;
+}
 
-  .footer-wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+  .logo-text{
+    margin-left:-1.2rem;
+    font-size:16px;
+}
+
+.nav-items{
+    gap:12px;
+    padding: 0 4em;
+}
+
+.nav-items div{
+    font-size:15px;
+    font-weight:300;
+}
+
+.hero-section{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin: 0%;
+  padding: 0%;
+}
+
+.hero-section-left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faded-text{
+  
+  font-size: 4em;
+  bottom: -12%;
+  left: 1%;
+}
+
+.hero-section-heading{
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.role{
+  font-weight: 500;
+  font-size:2.2rem;
+}
+
+.hero-section-sub-heading{
+  font-size: 35px;
+  line-height: 35px;
+}
+
+.hero-section-description{
+  margin-top: 12px;
+  width: 80%;
+  font-weight: 400;
+}
+
+.btn-pink {
+  padding: 0.6rem 2rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.user-image{
+  padding:1.5rem;
+
+}
+
+.skills-container{
+  padding:2rem;
+  margin: 0%;
+  gap:40px;
+  flex-direction: column;
+}
+
+.skill-container-left{
+width:100vw;
+}
+
+.skill-container-right{
+width:100vw;
+gap:1rem;
+margin: -2%;
+margin-top: 3rem;
+margin-bottom: 3rem;
+
+}
+
+.blob-style{
+width: 15rem;
+}
+
+.skills-logo{
+width:60px;
+transition:all 0.5s;
+}
+
+.skills-logo:hover{
+transform:scale(1.1);
+}
+
+.skill-heading{
+font-size:40px;
+}
+
+.caps{
+font-size:60px;
+}
+
+.contactus-heading{
+  font-size:2em;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  
+}
+
+.contactus-sub-heading{
+  font-size:1.6rem;
+  padding-left: 2rem;
+}
+
+.contactus-form-container{
+  margin-top:25px;
+}
+
+.form{
+  gap:20px;
+  width:90%;
+}
+
+.formfield-container{
+  width:100%;
+}
+
+.formfield{
+  width:90%;
+  height:42px;
+  padding: 0 1.5rem;
+  font-size:14px;
+  font-weight:400;
+  margin-top:20px;
+}
+
+.formfield-textarea{
+  height:auto;
+  padding-top:1rem;
+}
+
+#submit-btn{
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.submit-icon{
+  padding:0 1rem;
+  font-size:1rem;
+}
+
+footer{
+  display:flex;
+  gap:12px;
+  padding:1rem;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.footer-wrapper{
+  gap: 16p;
+  font-size:1.2rem;
+  flex-direction: column;
+}
+
+.footer-faded-text{
+  left:75%;
+  bottom:70%;
+  font-size:2em;
+  overflow-x: hidden;
+}
+
+.link-wrapper{
+  gap:12px;
+}
+
+.icon-wrapper{
+  gap:3rem;
+  margin-top: 1rem;
+}
 
 }
